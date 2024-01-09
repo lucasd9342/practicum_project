@@ -3,6 +3,7 @@
 <head>
   <title>Basic Snake HTML Game</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="snakeStyle.css" />
   <style>
   html, body {
     height: 100%;
@@ -11,7 +12,6 @@
 
   body {
     background: green;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -21,6 +21,13 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="logo">Micro Games</div>
+    <div class="nav-items">
+      <a href="websiteIndex.html">Home</a> <a href="index.html">Clicker</a> <a href="memoryGame.html">Memory</a>
+    </div>
+  </nav>
+
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
@@ -102,7 +109,7 @@ function loop() {
       if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
 
 
-        window.location.href = 'https://hva-teamthree 23.jacoblaws4.repl.co/'
+        window.location.href = 'https://hva-teamthree23.jacoblaws4.repl.co/'
       }
     }
   });
