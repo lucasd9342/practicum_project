@@ -75,9 +75,9 @@ function loop() {
     for (var i = index + 1; i < snake.cells.length; i++) {
 
       if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+        
 
-
-        window.location.href = 'https://hva-teamthree 23.jacoblaws4.repl.co/'
+        window.location.href = "http://127.0.0.1:5500/index.html"
       }
     }
   });
