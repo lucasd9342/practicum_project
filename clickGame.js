@@ -3,7 +3,7 @@ const c = canvas.getContext('2d')
 
 let gameIsOver = false;
 
-let lives = 3;
+let lives = 1;
 
 class Block {
   constructor(x, y) {
@@ -97,6 +97,6 @@ window.onload = function() {
   const sixSeconds = 6;
   const display = document.querySelector('#time');
   startTimer(sixSeconds, display);
-  const threeLives = 3;
+  const threeLives = 1;
   document.querySelector('#lives').textContent = threeLives;
 };
