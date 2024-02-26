@@ -11,8 +11,8 @@ class Block {
       x: x,
       y: y
     }
-    this.width = 100
-    this.height = 100
+    this.width = 50
+    this.height = 50
   }
 
   draw() {
